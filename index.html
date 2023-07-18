@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora Alura</title>
+    <script src="slide.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Krona+One&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="cabecalho-nav">
+             <div class="logo">
+                 <img src="img/logo-meteora.png" alt="Logo da Meteora" class="logo-meteora">
+             </div>
+             <div class="nav-list">
+                 <ul>
+                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                     <li class="nav-item"><a href="#" class="nav-link">Nossas Lojas</a></li>
+                     <li class="nav-item"><a href="#" class="nav-link">Novidades</a></li>
+                     <li class="nav-item"><a href="#" class="nav-link">Promoções</a></li>
+                 </ul>
+             </div>
+             <div class="login-botao">
+                 <input class="login-nav" type="text" placeholder="Digite o produto" name="nome">
+                 <button class="botao-nav"><a href="#">Buscar</a></button>
+             </div>
+ 
+             <div class="menu-icon">
+                 <button onclick="menuShow()"><img class="icon" src="img/menu-hambuguer.png" alt="menu-hambuguer"></button>
+             </div>
+        </nav>
+        <div class="menu-mobile">
+         <ul>
+           <li class="nav-item"><a href="#" class="nav-link link-titulo">Home</a></li>
+           <li class="nav-item"><a href="#" class="nav-link">Nossas Lojas</a></li>
+           <li class="nav-item"><a href="#" class="nav-link">Novidades</a></li>
+           <li class="nav-item"><a href="#" class="nav-link">Promoções</a></li>
+       </ul>
+           <button class="botao-nav"><a href="#">Buscar</a></button>
+        </div>
+        <div class="login-nav-mobile">
+                 <input class="login-nav" type="text" placeholder="Digite o produto" name="nome">
+                 <button class="botao-nav-mobile"><a href="#">Search</a></button>
+        </div>
+
+     </header>
+   <section class="slider">
+       <div class="slide-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+
+            <div class="slide-box primeiro">
+                <img class="imagem-desktop" src="img/carousel-desktop.png" alt="Banner roxo">
+                <img class="imagem-tablet" src="img/carousel-tablet.png" alt="Banner roxo tablet">
+                <img class="imagem-mobile" src="img/carousel-mobile.png" alt="Banner roxo mobile">
+            </div>
+            <div class="slide-box">
+                <img class="imagem-desktop" src="img/carousel-desktop2.png" alt="Banner rosa">
+                <img class="imagem-tablet" src="img/carousel-tablet2.png" alt="Banner rosa tablet">
+                <img class="imagem-mobile" src="img/carousel-mobile2.png" alt="Banner rosa mobile">
+            </div>
+            <div class="slide-box">
+                <img class="imagem-desktop" src="img/carousel-desktop3.png" alt="Banner laranja">
+                <img class="imagem-tablet" src="img/carousel-tablet3.png" alt="Banner laranja tablet">
+                <img class="imagem-mobile" src="img/carousel-mobile3.png" alt="Banner laranja mobile">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+   </section>
+            <h1 class="categoria__titulo">Busque por categoria:</h1>
+    <section class="categoria__container">
+            <div class="categoria__item"><img src="img/camisa-top.png"></div>
+            <div class="categoria__item"><img src="img/bolsa-top.png"></div>
+            <div class="categoria__item"><img src="img/calcados-top.png"></div>
+            <div class="categoria__item"><img src="img/calca-top.png"></div>
+            <div class="categoria__item"><img src="img/casaco-top.png"></div>
+            <div class="categoria__item"><img src="img/oculos-top.png"></div>
+    </section>
+            <h1 class="produtos__titulos">Produtos que estão bombando!</h1>
+        
+        <div class="produto">
+            <div class="card">
+                <img class="imagem__produto" src="img/camiseta-prod.png">
+                <h3>Camiseta Conforto</h3>
+                <p>Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+                <h4>R$ 70,00</h4>
+                <button class="botao__produto">Ver mais</button>
+            </div>
+            <div class="card">
+                <img class="imagem__produto" src="img/calça-prod.png">
+                <h3>Calça Alfaiataria</h3>
+                <p>Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
+                <h4>R$ 180,00</h4>
+                <button class="botao__produto">Ver mais</button>
+            </div>
+            <div class="card">
+                <img class="imagem__produto" src="img/tenis-prod.png">
+                <h3>Tênis Chunky</h3>
+                <p>Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+                <h4>R$ 250,00</h4>
+                <button class="botao__produto">Ver mais</button>
+            </div>
+            <div class="card">
+                <img class="imagem__produto" src="img/jaqueta-prod.png">
+                <h3>Jaqueta Jeans</h3>
+                <p>Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+                <h4>R$ 150,00</h4>
+                <button class="botao__produto">Ver mais</button>
+            </div>
+            <div class="card">
+                <img class="imagem__produto" src="img/oculos-prod.png">
+                <h3>Òculos Redondo</h3>
+                <p>Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+                <h4>R$ 120,00</h4>
+                <button class="botao__produto">Ver mais</button>
+            </div>
+            <div class="card">
+                <img class="imagem__produto" src="img/bolsa-prod.png">
+                <h3>Bolsa Coringa</h3>
+                <p>Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
+                <h4>R$ 120,00</h4>
+                <button class="botao__produto">Ver mais</button>
+            </div>
+         </div>
+
+
+    <Section class="redes__container">
+            <h2 class="redes__titulo">Conheça todas as nossas facilidades</h2>
+            <ul class="redes__ul">
+                <li class="redes__li">
+                    <img class="imagem__redes" src="img/arrow-repeat.png" alt="Florzinha">
+                    <div class="redes__div">
+                        <h3 class="redes__subtitulos">Pague pelo PIX</h3>
+                        <p class="redes__paragrafos">Ganhe 5% OFF em pagamento pix</p>
+                    </div>
+                </li>
+                <li class="redes__li">
+                    <img class="imagem__redes" src="img/flower1.png" alt="diamante">
+                    <div class="redes__div">
+                        <h3 class="redes__subtitulos">Troca grátis</h3>
+                        <p class="redes__paragrafos">Fique livre para trocar em até 30 dias.</p>
+                    </div>
+                </li>
+                <li class="redes__li">
+                    <img class="imagem__redes" src="img/x-diamond.png" alt="repete">
+                    <div class="redes__div">
+                        <h3 class="redes__subtitulos">Sustentabilidades</h3>
+                        <p class="redes__paragrafos">Moda responsável, que respeita o meio ambiente.</p>
+                    </div>
+                </li>
+            </ul>
+
+    </Section>
+
+    <section class="contato__container">
+        <div class="contato__borda">
+        <h2 class="contato__texto">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra?<b>Cadastre-se!</b></h2>
+        <input type="email" placeholder="Digite seu email" class="contato__email">
+        <button class="botao__contato">Enviar</button>
+    </div>
+
+    </section>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

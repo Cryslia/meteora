@@ -1,0 +1,26 @@
+@import url(style/cabecalho.css);
+@import url(style/slide.css);
+@import url(style/categoria.css);
+@import url(style/produtos.css);
+@import url(style/redes.css);
+@import url(style/contato.css);
+@import url(style/rodape.css);
+@import url(slide.js);
+
+:root{
+    --cor-de-fundo: #F3F6F7;
+    --cor-do-cabecalho: #000000;
+    --cor-do-link: #FFFFFF;
+    --fonte-principal: 'Inter';
+    --botao: #9353FF;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+      
+}
+

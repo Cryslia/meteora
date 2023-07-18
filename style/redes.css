@@ -1,0 +1,128 @@
+.redes__container{
+    background-color: black;
+    color: white;
+    padding: 2.5rem 0;
+}
+
+.redes__container .redes__titulo{
+    text-align: center;
+    padding-bottom: 1.875rem;
+    font-size: 20px;
+}
+
+.redes__container .redes__ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3px;
+    position: relative;
+    left: 26px;
+}
+
+.redes__container .redes__ul .redes__li{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.redes__container .redes__ul .redes__div .redes__subtitulos{
+    color: #DAFF01;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.redes__container .redes__ul .redes__li .redes__div .redes__paragrafos{
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .redes__container{
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .redes__container .redes__ul{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .redes__container .redes__ul .redes__li{
+        display: flex;
+        justify-content: center;
+        width: 735px;
+    }
+
+    .redes__container .redes__ul .redes__div .redes__subtitulos{
+        padding-bottom: 4px;
+    }
+
+    .redes__sociais-titulo{
+        width: 100%;
+        font-size: 32px;
+        margin-top: -8em;
+        padding-top: 12px ;
+    }
+
+    .redes__paragrafos{
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagem__redes{
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .redes__container{
+        display: flex;
+        padding: 2em;
+    }
+
+    .redes__container .redes__ul{
+        display: flex;
+      
+    }
+
+    .redes__container .redes__ul .redes__li{
+        display: flex;
+        justify-content: flex-start;
+        width: 330px;
+        gap: 35px;
+        position: relative;
+        right: 14px;
+    }
+
+    .redes__container .redes__div{
+        width: 218px;
+    }
+
+    .redes__paragrafos{
+        text-align: inherit;
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .redes__subtitulos{
+        padding: 0;
+    }
+
+    .redes__imagens{
+        margin: 0;
+        padding: 1em;
+    }
+
+    .redes__sociais-titulo{
+        font-size: 10px;
+        padding: 1px;
+        color: black;
+    }
+}
